@@ -1,0 +1,183 @@
+      :root {
+         --primary-color: #fd7e14;
+         --second-color: #ffc107;
+         --dark: #343a40;
+         --light: #f1f1f1;
+         --font-family: -apple-system, blinkMacSystemfont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+     }
+     
+     body,
+     p,
+     header,
+     main,
+     a {
+         text-decoration: none;
+         font-family: var(--font-family);
+         margin: 0;
+     }
+     
+     body {
+         background-color: var(--light);
+     }
+     
+     #navbar ul,
+     #navbar-list li,
+     #navbar nav {
+         margin-top: 15px;
+         width: auto;
+         display: inline-block;
+         color: var(--dark);
+         font-size: 15px;
+     }
+     
+     #navbar {
+         list-style: none;
+         background-color: white;
+         padding-right: 135px;
+         text-align: center;
+         padding-bottom: 30px;
+     }
+     
+     #navbar ul a {
+         margin-left: auto;
+         margin-right: auto;
+         text-decoration: none;
+         color: black;
+         font-weight: bold;
+     }
+     
+     #navbar-list li {
+         margin-top: -20px;
+         margin-left: -10px;
+     }
+     
+     #events {
+         padding-left: 40px;
+         padding-right: 40px;
+     }
+     
+     #menuuser {
+         padding-right: 40px;
+     }
+     
+     #logo {
+         float: left;
+         margin-top: 20px;
+         margin-left: 135px;
+     }
+     
+     #navbar-list li a:hover {
+         text-decoration: underline 3px;
+         text-decoration-color: #fd7e14;
+         font-size: 115%;
+     }
+     
+     .logout {
+         margin-top: 15px;
+         float: right;
+     }
+     
+     #desconect {
+         text-align: right;
+         font-size: 13px;
+     }
+     
+     .orangediv {
+         background-color: var(--primary-color);
+         height: 120px;
+         border: 1px solid var(--primary-color);
+     }
+     
+     .hello p {
+         font-size: 20px;
+     }
+     
+     section {
+         margin-left: auto;
+         margin-right: auto;
+         display: flex;
+         border: 1px solid black;
+         align-items: center;
+         justify-content: center;
+     }
+     
+     #sectionsettings {
+         width: 80%;
+         margin-left: auto;
+         margin-right: auto;
+         background-color: white;
+         margin-top: -120px;
+         height: 700px;
+         border: 1px solid white;
+         justify-content: space-between;
+     }
+     
+     .container {
+         display: inline-flex;
+         margin-left: auto;
+         margin-right: auto;
+     }
+     
+     .hello {
+         justify-content: center;
+         align-items: center;
+         display: flex;
+         margin-left: auto;
+         margin-right: auto;
+         margin-top: 30px;
+     }
+     
+     .options {
+         height: 300px;
+         width: 300px;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         border-radius: 20px;
+         background-image: linear-gradient(to bottom, white, var(--light));
+         color: var(--dark);
+     }
+     
+     .options:hover {
+         box-shadow: 2px 2px orange;
+         border-radius: 20px;
+     }
+     
+     .options_central:hover {
+         box-shadow: 2px 2px orange;
+         border-radius: 20px;
+     }
+     
+     .title_options {
+         padding-top: 30px;
+     }
+     
+     .options_central {
+         height: 300px;
+         width: 300px;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         border-radius: 20px;
+         background-image: linear-gradient(to bottom, white, var(--light));
+         color: var(--dark);
+         margin-left: 50px;
+         margin-right: 50px;
+     }
+     
+     footer {
+         padding-top: 20px;
+         margin-top: 60px;
+         text-align: center;
+         justify-items: center;
+         color: var(--light);
+         background-color: var(--dark);
+         height: 50px;
+         border: 1px solid var(--dark);
+     }
+     
+     span {
+         color: var(--primary-color);
+     }
